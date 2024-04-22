@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+    font-size: 1.3rem;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+    display: flex;
+
+}
+
+input{
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#yyyy{
+    width: 70px;
+}
+
+.slash{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 30px;
+}
