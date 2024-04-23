@@ -103,7 +103,8 @@ const isLeapYear = function (yyyy) {
   if (yyyy % 4 == 0) {
     if (yyyy % 100 == 0) {
       if (yyyy % 400 == 0) return true;
-      return false;
+    }else{
+      return true;
     }
   }
 
