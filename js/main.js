@@ -67,7 +67,7 @@ calculate.addEventListener("click", function (e) {
       window.alert(`${dd} is NOT available in ${MONTH[mm - 1]}`);
       return;
     }
-  } else {
+  } else {  
     if (dd > MONTH_LENGTH[mm - 1]) {
       window.alert(`${dd} is NOT available in ${MONTH[mm - 1]}`);
       return;
@@ -103,7 +103,7 @@ const isLeapYear = function (yyyy) {
   if (yyyy % 4 == 0) {
     if (yyyy % 100 == 0) {
       if (yyyy % 400 == 0) return true;
-    }else{
+    }else{  
       return true;
     }
   }

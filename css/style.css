@@ -41,3 +41,13 @@ input{
 .btn {
     margin: 30px;
 }
+
+.form-group::after{
+  content: "Enter from 1 - 12 or leave a blank";
+  background-color: lemonchiffon;
+  display: none;
+}
+
+.form-group:hover{
+  content: "Hello";
+}
